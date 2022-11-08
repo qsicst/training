@@ -39,7 +39,7 @@ jQuery(document).ready(function ($) {
                     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
                     html += `<li>
                         ${months[trainingDate.getMonth()]} 
-                        ${data.training[i].StartDay}-${data.training[i].EndDay + 1}, 
+                        ${data.training[i].StartDay}-${data.training[i].pEndDay}, 
                         ${data.training[i].Year}
                         </li>
                     `;
@@ -71,7 +71,7 @@ jQuery(document).ready(function ($) {
                 }
             }
             html += '</ul>';
-            $('#q1fundamentals').append(html);
+            $('#q2fundamentals').append(html);
         })
     }
     // Q2 Practitioner Training
@@ -89,7 +89,7 @@ jQuery(document).ready(function ($) {
                     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
                     html += `<li>
                         ${months[trainingDate.getMonth()]} 
-                        ${data.training[i].StartDay}-${data.training[i].EndDay + 1}, 
+                        ${data.training[i].StartDay}-${data.training[i].pEndDay}, 
                         ${data.training[i].Year}
                         </li>
                     `;
