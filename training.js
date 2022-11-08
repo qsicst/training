@@ -133,8 +133,4 @@ jQuery(document).ready(function ($) {
         months += d2.getMonth();
         return months <= 0 ? 0 : months;
     }
-
-    function test(d1, d2) {
-        return monthDiff(d1, d2);
-    }
 });
