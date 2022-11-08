@@ -1,11 +1,13 @@
 {
-    "training": {
-      "Q1 Fundamentals": [
-          {
-              "StartDate": "January 23, 2023",
-              "EndDate": "January 25, 2023",
-              "Listing": "January 23-25, 2023"
-          }
-      ]
-    }
+  "training": {
+    "Q1 Fundamentals": [
+      {
+        "Year": "2023",
+        "Month": "01",
+        "StartDay": "23",
+        "EndDay": "25",
+        "Listing": "January 23-25, 2023"
+      }
+    ]
   }
+}
