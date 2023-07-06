@@ -2,18 +2,6 @@
   "training": [
     {
       "Year": "2023",
-      "Month": "03",
-      "StartDay": "07",
-      "EndDay": "09"
-    },
-    {
-      "Year": "2023",
-      "Month": "06",
-      "StartDay": "06",
-      "EndDay": "08"
-    },
-    {
-      "Year": "2023",
       "Month": "11",
       "StartDay": "14",
       "EndDay": "16"
